@@ -1,0 +1,21 @@
+Stack memory
+Primitive datatypes uses stack memory
+we get a copy of it and not the reference
+
+Heap memory
+Non primitive uses it
+it declares a variable but stores the val as reference to the datatypes
+reference is stored
+
+STACK                     HEAP
+------------        --------------------------
+|  name    |        |    array's value       |
+------------        |  ["name1", "name2"]    |
+                    |                        |
+------------        |                        |
+|    age   |        --------------------------
+------------                  |||
+                               |
+------------                   |
+| ref array | ------------------
+------------

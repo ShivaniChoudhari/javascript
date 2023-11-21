@@ -1,0 +1,20 @@
+ECMA Things: 
+
+* Mostly to avoid using the keyword var and use let or const whenever needed.
+
+* TEMPLATE LITERALS
+ - ${"name of the variable"}
+ - written in back ticks (``)
+
+ * If there are more numbers passed than needed then the operator will 
+ just take the amount of numbers that are needed.
+
+ * const is more standard way of writing the arrow functions
+
+ //Exporting funtions and arrow functions in another file:
+ 1. Functions:
+ export default function (function_name)
+
+ 2. Arrow functions:
+ export (data_type: let, var, const) (function_name)
+ eg: export const PrintFunction
